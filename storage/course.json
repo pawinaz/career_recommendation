@@ -1,0 +1,140 @@
+[
+    {
+        "courseid": "1411 101",
+        "coursenameeng": "Thai Language for Communication",
+        "EnglishDes": "Language and communication; language and thoughts; art of using Thai language;\nanalytical reading; writing to express ideas; report writing",
+        "Skills": "Effective communication in Thai, Analytical reading, Writing skills for idea expression,Report writing techniques, Understanding language and thought processes"
+    },
+    {
+        "courseid": "1421 102",
+        "coursenameeng": "Foundation English I",
+        "EnglishDes": "Comprehension of short and precise spoken and written English; communication\nabout oneself, people, places and things by using non-complex language structures",
+        "Skills": "Basic comprehension of spoken and written English, Communication about personal topics, Use of non-complex language structures, Introduction to English grammar and vocabulary"
+    },
+    {
+        "courseid": "1421 103",
+        "coursenameeng": "Foundation English II",
+        "EnglishDes": "Comprehension of spoken and written English; communication about daily life and\ncareer-related topics by using more complex language structures",
+        "Skills": "Enhanced comprehension of spoken and written English, Communication about daily life and career-related topics, Use of more complex language structures, Development of listening and speaking skills"
+    },
+    {
+        "courseid": "1421 222",
+        "coursenameeng": "English for Science and Technology",
+        "EnglishDes": "Reading for main ideas and specific details; expressing opinions; paragraph writing in\nscience and technology contexts",
+        "Skills": "Reading technical texts for main ideas and specific details, Expressing opinions in a scientific context, Technical writing, including paragraph construction, Understanding scientific and technological terminology"
+    },
+    {
+        "courseid": "1406 112 ",
+        "coursenameeng": "Aesthetics and Happiness",
+        "EnglishDes": "Aesthetics in nature; aesthetics in everyday life; visual art; music; dance; theater;literary works; happiness in cultural diversity; applying aesthetical concepts to happiness ",
+        "Skills": "Appreciation of aesthetics in nature and daily life, Understanding of visual arts, music, dance, theater, and literary works, Cultural diversity awareness, Applying aesthetic concepts to enhance happiness"
+    },
+    {
+        "courseid": "1431 111 ",
+        "coursenameeng": "Ethics and Reasoning",
+        "EnglishDes": "Meaning of thinking; argument; fallacy; reasoning skills for problem solving in daily life; \nethics; moral problems in daily life; religious perspectives",
+        "Skills": "Critical thinking and logical reasoning, Problem-solving in daily life, Understanding ethical and moral issues, Identifying and analyzing arguments and fallacies, Ethical decision-making"
+    },
+    {
+        "courseid": "1447 105",
+        "coursenameeng": "Communication in Current Society",
+        "EnglishDes": "Definition and importance of communication; elements of communication and\ncommunication process; psychology and social context of communication; communication\nlandscape in the digital age; principles of receiving and accessing information; impact of\ncommunication; skills for media literacy",
+        "Skills": "Understanding principles of communication, Media literacy skills, Navigating communication in the digital age, Analyzing the psychological and social context of communication, Assessing the impact of communication on society"
+    },
+    {
+        "courseid": "1013 001",
+        "coursenameeng": "Dynamics of Thai Society, Citizen, and Justice Process",
+        "EnglishDes": "Dynamics of Thai society and culture; multiple characteristics of Thai society;\neconomic and social inequality in Thailand; citizenship in Thai society; overview of political\ninstitution and citizenship; Thai citizens in world-societal context; overview of fundamental\nlaws; types of law and relation to other sciences; overview of civil and commercial justice\nprocess; criminal case and administrative case; alternative justice process; causes, prevention\nand suppression of corruption according to criminology and penology principles",
+        "Skills": "Understanding Thai societal dynamics and culture, Awareness of economic and social inequalities, Knowledge of citizenship and political institutions, Basic legal principles and justice processes, Understanding corruption prevention and criminology"
+    },
+    {
+        "courseid": "1441 100",
+        "coursenameeng": "Man and Society",
+        "EnglishDes": "Man and society; diversity of beliefs and peoples; urban and city; stratification and\nsocial class; consumerism; sub-culture; gender; globalization and transnational migrant;\ninformation society and disruptive technologies",
+        "Skills": "Understanding human societies and cultural diversity, Analyzing social structures like urbanization and social classes, Awareness of globalization and transnational migration,Understanding the impact of disruptive technologies, Analyzing consumerism and sub-cultures"
+    },
+    {
+        "courseid": "2300 115",
+        "coursenameeng": "Peaceful Conflict Management as Citizens",
+        "EnglishDes": "Meaning of citizenship; citizenship in democratic regime; meaning and types of\nconflict and violence; meaning and types of peace and peaceful settlement; importance of\npeaceful settlement and citizenship; role of constitution in conflict management and\nprevention of violence; role of political institutions in conflict management and prevention of\nviolence; formal participation; informal participation; negotiation and mediation; dialogue;\ncivil disobedience",
+        "Skills": "Understanding conflict and violence types, Knowledge of peaceful settlement techniques, Negotiation and mediation skills, Understanding the role of constitutions and political institutions in conflict management, Civic participation and civil disobedience"
+    },
+    {
+        "courseid": "1014 002",
+        "coursenameeng": "Contemporary Sexual Health and Life Skills",
+        "EnglishDes": "Gender; sexuality and gender roles; social and cultural dimensions that affect sexual;\nsexuality changes in Thai society; sexual diversity; sexual equality; sexual health; science and\nart of appropriate practice of sexual happiness; gender disorder; sexual danger and prevention;\nprevention and solution of adolescent pregnancy problem; laws related to sexuality;\nimportant life skills for living",
+        "Skills": "Understanding gender, sexuality, and gender role, Awareness of social and cultural impacts on sexuality, Knowledge of sexual health and prevention methods, Life skills for managing sexual health and relationships, Understanding laws related to sexuality"
+    },
+    {
+        "courseid": "1439 104",
+        "coursenameeng": "Sport Science in Daily Life",
+        "EnglishDes": "Basic knowledge of sport science; physical fitness maintenance; enhancement of\nphysical fitness; exercise program management; age-appropriated exercise; evaluation and\ntest of physical fitness; basic skills in exercising for health; nutrition and exercise; prevention\nof exercise injury; applying in daily life",
+        "Skills": "Knowledge of basic sport science principles, Physical fitness maintenance and enhancement, Exercise program management, Injury prevention techniques, Evaluating and testing physical fitness"
+    },
+    {
+        "courseid": "1502 100",
+        "coursenameeng": "Age-appropriated Health Care",
+        "EnglishDes": "Age-appropriated health care; developmental psychology; male reproductive system;\nfemale reproductive system, fertilization, sex determination and childbirth; prenatal\ndevelopments and abnormal; physiological changes and health care for pregnancy, infant and\npostpartum mother, pre-school child and school age, adolescence and reproductive age,\ngolden age and geriatrics; vaccine; sexually transmitted diseases and prevention; family\nplanning and birth control; genetic disorders; infertility and treatments",
+        "Skills": "Health care practices for different life stages, Developmental psychology understanding, Knowledge of reproductive systems, Disease prevention and vaccination, Family planning and birth control methods"
+    },
+    {
+        "courseid": "1145 000",
+        "coursenameeng": "Introduction to Computer and Computer Architecture",
+        "EnglishDes": "Introduction to computer; digital logic circuits; data representation. \nsystem buses; internal and external memory; input and output devices; operating system support; central processing unit; arithmetic and logic unit; instruction set and control unit; computer architecture evolution and format; assembly language concepts",
+        "Skills": "Understanding computer fundamentals, Knowledge of digital logic circuits, Data representation techniques, Familiarity with system buses, memory, and CPU operations, Basics of assembly language concepts"
+    },
+    {
+        "courseid": "1145 001",
+        "coursenameeng": "Introduction to Programming",
+        "EnglishDes": "Principles and concepts of problem-solving with programming language; \npseudocode; flowchart; programming language syntax; variables and data types; \noperators; statements; control structures; programming tools; programming styles and conventions",
+        "Skills": "Problem-solving using programming languages, Understanding programming syntax and structures, Use of pseudocode and flowcharts, Working with variables and data types, Developing programming styles and conventions"
+    },
+    {
+        "courseid": "1141 001",
+        "coursenameeng": " Statistics and Quantitative Analysis",
+        "EnglishDes": " Statistical methodology; probability and probability distribution, \ndiscrete and continuous; sampling; estimation of parameters; hypothesis testing; simple linear regression analysis and correlation analysis; linear equations; transportation problems; assignment problem; inventory model; Markov model; mathematical simulation and game theory",
+        "Skills": "Statistical methodologies, Understanding probability and probability distributions, Sampling techniques, Parameter estimation and hypothesis testing, Regression and correlation analysis, Linear equations and mathematical modeling"
+    },
+    {
+        "courseid": "1145 002",
+        "coursenameeng": "Data Structure and Algorithms",
+        "EnglishDes": "Introduction to data structures; analysis of running time and complexity of algorithms; \nLinear data structures, arrays, linked lists, stacks, queues; non-linear data structures, \nTree graphs; sorting techniques; searching techniques; applications of data structures;\nLaboratory work in related topics",
+        "Skills": "Knowledge of linear and non-linear data structures (arrays, linked lists, trees, graphs), Analyzing algorithm complexity and performance, Implementing sorting and searching algorithms, Applying data structures in practical scenarios, Laboratory experience with data structures"
+    },
+    {
+        "courseid": "1145 006",
+        "coursenameeng": "Object-Oriented Programming",
+        "EnglishDes": "Concepts and principles of object-oriented programming; class and object;\nEncapsulation; inheritance; polymorphism; frameworks for object-oriented software\nDevelopment; object-oriented project development",
+        "Skills": "Understanding object-oriented programming concepts (classes, objects), Encapsulation, inheritance, and polymorphism, Using frameworks for software development, Developing object-oriented projects, Applying OOP principles in programming"
+    },
+    {
+        "courseid": "1141 002",
+        "coursenameeng": "Discrete Mathematics",
+        "EnglishDes": "Set; sequences; logic and method of proof; combinatoric mathematics; relations;\nFunctions; graph theory; tree diagram; Boolean algebra; automata grammar and language",
+        "Skills": "Set theory and sequences, Logical reasoning and proof methods, Combinatorics and discrete probability, Relations and functions, Graph theory and tree diagrams, Boolean algebra and automata theory"
+    },
+    {
+        "courseid": "1145 004 ",
+        "coursenameeng": "Database System",
+        "EnglishDes": "Concepts of data management; file management; database management;\nDatabase architecture; data models; relational data model; database analysis and\nDesign; transaction processing; concurrency control; data recovery and backup",
+        "Skills": "Data management concepts, File and database management techniques, Understanding database architectures and data models, Relational data modeling, Database analysis and design, Transaction processing and concurrency control, Data recovery and backup strategies"
+    },
+    {
+        "courseid": "1145 005",
+        "coursenameeng": "Web Programming",
+        "EnglishDes": "Basic of web technology; HTML, CSS and JavaScript; JSON; responsive web\nDesign; principles of data communication over web; application programming\nInterface; Cloud computing; web application design and implementation; \nweb database; server-side scripting; web project development",
+        "Skills": "Proficiency in HTML, CSS, and JavaScript, Creating responsive web designs, Understanding data communication over the web, Using application programming interfaces (APIs), Cloud computing concepts, Server-side scripting and web database integration, Web project development"
+    },
+    {
+        "courseid": "1146 002",
+        "coursenameeng": "User Experience/User Interface design",
+        "EnglishDes": "Exploration of visual design elements, user interfaces and user experience;\nuser-centered design techniques; user data analyzing and persona creation;\nunderstanding ideation, scenarios and storyboards, paper pretotypes, \nimplement planning; types of interfaces; user experience interaction;\nhigh fidelity prototype design; evaluation techniques",
+        "Skills": "Visual design principles and elements, User-centered design techniques, Analyzing user data and creating personas, Ideation, scenario building, and storyboarding, Prototyping and interface types, User experience interactions, High-fidelity prototype design, Evaluation and usability testing"
+    },
+    {
+        "courseid": "1146 003",
+        "coursenameeng": "Data Communication and Inter-networking",
+        "EnglishDes": "Fundamentals of data communications; OSI model and TCP/IP models;\nSignals and transmission media; modulation and demodulation;\nMultiplexing and demultiplexing; local area networks technologies;\nethernet technologies; inner-network connection; IP addressing;\npacket forwarding; routing and routing protocols; wireless network\ntechnologies; laboratory work in related topics",
+        "Skills": "Fundamentals of data communication, Understanding OSI and TCP/IP models, Signal transmission and media types, Modulation and multiplexing techniques, Local area network (LAN) technologies, Ethernet and wireless network technologies, IP addressing and routing protocols, Laboratory work on related networking topics"
+    }
+]
