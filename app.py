@@ -1,7 +1,8 @@
 import sys
 import json
 import gensim
-import os
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
 
 def main():
     try:
@@ -20,44 +21,86 @@ def main():
             raise Exception(f"Model file not found at path: {model_path}")
         except Exception as e:
             raise Exception(f"Error loading model: {str(e)}")
+        
+        # ฟังก์ชัน preprocess_text ที่จะใช้ในการเตรียมข้อมูล
+        def preprocess_text(text):
+            return text.lower().replace('_', ' ').strip()
 
-        # ฟังก์ชันแปลงเกรดเป็นเวกเตอร์ที่เหมาะสมสำหรับโมเดล
-        def process_grade(grade):
-            # แปลงเกรดเป็นคะแนน เช่น A = 4, B = 3, C = 2, D = 1, F = 0
-            grade_mapping = {'A': 4.0, 'B+':3.5, 'B': 3, 'C+':2.5, 'C': 2,'D+':1.5, 'D': 1, 'F': 0}
-            return grade_mapping.get(grade.upper(), 0)
-
-        # แปลงเกรดเป็นเวกเตอร์
-        input_vector = [process_grade(grade) for grade in grades.values()]
-
-        # ใช้โมเดลในการแนะนำอาชีพ
-        try:
-            recommended_careers = model.dv.most_similar([input_vector], topn=3)
-            career_ids = [career[0] for career in recommended_careers]
-        except Exception as e:
-            raise Exception(f"Error during career recommendation: {str(e)}")
-
-        # กำหนดเส้นทางของไฟล์ mapping
-        script_dir = os.path.dirname(os.path.realpath(__file__))
-        mapping_file_path = os.path.join(script_dir, 'career_mapping.json')
-
-        # โหลดไฟล์ mapping ระหว่างรหัสอาชีพและชื่ออาชีพ
-        try:
-            with open(mapping_file_path, 'r') as f:
-                career_mapping = json.load(f)
-        except FileNotFoundError:
-            raise Exception(f"Career mapping file not found at path: {mapping_file_path}")
-        except json.JSONDecodeError:
-            raise Exception("Error decoding career mapping JSON.")
-
-        # แปลงรหัสอาชีพให้เป็นชื่ออาชีพ
-        result = []
-        for career_id in career_ids:
-            if career_id in career_mapping:
-                result.append(career_mapping[career_id])
+        # ฟังก์ชันแปลงเกรดเป็นข้อความ
+        def grade_to_number(grade):
+            if grade == 'A':
+                return 4.0
+            elif grade == 'B+':
+                return 3.5
+            elif grade == 'B':
+                return 3.0
+            elif grade == 'C+':
+                return 2.5
+            elif grade == 'C':
+                return 2.0
+            elif grade == 'D+':
+                return 1.5
+            elif grade == 'D':
+                return 1.0
+            elif grade == 'F':
+                return 0.0
             else:
-                result.append(f"Unknown career for ID: {career_id}")
-                print(f"Warning: Career ID {career_id} not found in mapping.")
+                return None
+
+        # แปลงเกรดเป็นค่าตัวเลข (Normalization)
+        user_grades = {course: grade_to_number(grade) for course, grade in grades.items()}
+        user_grades = {course: grade for course, grade in user_grades.items() if grade is not None}
+
+        # เตรียมข้อมูลผู้ใช้จากเกรด
+        processed_user_grades = {preprocess_text(course): grade for course, grade in user_grades.items()}
+
+        # สร้างเวกเตอร์ของผู้ใช้จากเกรดที่กรอก
+        user_vectors = [model.infer_vector(course.split()) * grade for course, grade in processed_user_grades.items()]
+        if len(user_vectors) > 0:
+            user_vector = np.mean(user_vectors, axis=0)
+        else:
+            user_vector = np.zeros(model.vector_size)
+
+        # สร้างเวกเตอร์ของอาชีพทั้งหมดจากแท็กที่เคยสร้างตอนเทรนโมเดล
+        career_tags = model.dv.index_to_key
+        career_vectors = [model.dv[tag] for tag in career_tags]
+
+        # คำนวณความคล้ายคลึงระหว่างเวกเตอร์ของผู้ใช้และเวกเตอร์ของอาชีพทั้งหมด
+        similarities = cosine_similarity([user_vector], career_vectors)[0]
+
+        # เรียงลำดับอาชีพตามความคล้ายคลึงและเลือก 3 อันดับแรก
+        top_indices = similarities.argsort()[-3:][::-1]
+        top_careers = [career_tags[i] for i in top_indices]
+
+        # แผนที่ชื่อแท็กกลับไปยังชื่ออาชีพที่แท้จริงจาก JSON ที่ให้มา
+        career_mapping = {
+            "career_1": "System Engineer",
+            "career_2": "System Analyst",
+            "career_3": "Machine Learning Engineer",
+            "career_4": "Network Engineer",
+            "career_5": "Cybersecurity",
+            "career_6": "Data Analyst",
+            "career_7": "Database Engineer",
+            "career_8": "Full Stack Developer",
+            "career_9": "Tester (Software Tester/QA Engineer)",
+            "career_10": "Web Developer",
+            "career_11": "UX/UI Designer",
+            "career_12": "Graphic Designer",
+            "career_13": "Software Developer",
+            "career_14": "Software Engineer",
+            "career_15": "IT Support",
+            "career_16": "IT Project Manager",
+            "career_17": "Help Desk Technician",
+            "career_18": "DevOps Engineer",
+            "career_19": "Computer Science Teacher",
+            "career_20": "IT Administrative Officer"
+        }
+
+        # แปลงแท็กให้เป็นชื่ออาชีพ
+        human_readable_careers = [career_mapping.get(career, career) for career in top_careers]
+
+        # ส่งผลลัพธ์กลับไปยัง Laravel (ส่ง top careers)
+        result = human_readable_careers
 
     except json.JSONDecodeError:
         result = {"error": "Invalid JSON format for grades."}

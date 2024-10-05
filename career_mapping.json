@@ -1,122 +1,22 @@
-[
-    {
-        "career_id": 1,
-        "Jobtitle": "System Engineer",
-        "Jobdes": "Responsible for managing and monitoring all installed systems and infrastructure. This includes the installation, configuration, testing, and maintenance of operating systems, application software, and system management tools. Ensures the highest levels of systems and infrastructure availability, performance, and security.",
-        "Skills": "Database Design, Cybersecurity, Software Analysis, Requirement Gathering, Network Configuration, Network Infrastructure Design, Programming, Software Tools, System Architecture Design, Database Management, Cloud Computing"
-    },
-    {
-        "career_id": 2,
-        "Jobtitle": "System Analyst",
-        "Jobdes": "Develops and analyzes detailed software requirements, including evaluation tools and techniques. Provides expert advice to the software development team, ensuring that system proposals are thoroughly analyzed, evaluated, and optimized. Recommends alternative solutions and technologies to improve the quality and efficiency of system solutions.",
-        "Skills": "Analytical and Problem-Solving Skills, Business Requirements Understanding, Programming, IT Infrastructure, Effective Communication and Collaboration Skills, Testing and Quality Assurance, Database Management"
-    },
-    {
-        "career_id": 3,
-        "Jobtitle": "Machine Learning Engineer",
-        "Jobdes": "Responsible for designing and implementing machine learning models and algorithms to solve real-world problems. Works closely with data scientists, software engineers, and business stakeholders to deploy scalable machine learning models in production environments. Optimizes model performance and ensures data integrity and security throughout the machine learning lifecycle.",
-        "Skills": "Machine Learning, Deep Learning, Data Analysis, Predictive Modeling, Programming (Python, R), Data Structures, Algorithms, Statistics, Data Visualization, Database Management, Software Tools, Cybersecurity, Model Deployment, Cloud Computing"
-    },
-    {
-        "career_id": 4,
-        "Jobtitle": "Network Engineer",
-        "Jobdes": "Responsible for configuring and installing network devices and services, performing network maintenance and system upgrades, and monitoring network performance. Also handles network availability, reliability, resource utilization, and capacity planning, ensuring optimal network performance.",
-        "Skills": "Software Tools, Requirement Gathering, Network Infrastructure Design, Testing and Quality Assurance, Cloud Computing, Data Visualization, Network Configuration, System Architecture Design, Cybersecurity"
-    },
-    {
-        "career_id": 5,
-        "Jobtitle": "Cybersecurity",
-        "Jobdes": "Responsible for designing, implementing, and monitoring security measures to protect computer systems, networks, and data. Ensures that an organization's information infrastructure is protected against cyber attacks, data breaches, and unauthorized access. Conducts vulnerability assessments, security audits, and incident response planning.",
-        "Skills": "Cybersecurity, Network Security, Risk Management, Incident Response, Encryption, Threat Detection, Problem-Solving, Communication, Technical Documentation"
-    },
-    {
-        "career_id": 6,
-        "Jobtitle": "Data Analyst",
-        "Jobdes": "Collects, processes, and analyzes data from various sources to generate insights and support business decisions. Uses statistical tools and data visualization techniques to identify trends, patterns, and opportunities.",
-        "Skills": "Statistics, Data Visualization, Programming, Database Management, Data Analysis, Predictive Analysis, Requirement Gathering, Software Tools"
-    },
-    {
-        "career_id": 7,
-        "Jobtitle": "Database Engineer",
-        "Jobdes": "Responsible for designing, implementing, and managing databases to ensure data integrity, security, and availability. Works closely with developers and system administrators to optimize database performance, conduct backup and recovery operations, and ensure that databases are scalable to handle growing data demands.",
-        "Skills": "Database Design, SQL, Data Modeling, Database Performance Optimization, Backup and Recovery, Data Security, Problem-Solving, Communication, Technical Documentation"
-    },
-    {
-        "career_id": 8,
-        "Jobtitle": "Full Stack Developer",
-        "Jobdes": "Responsible for developing both the front-end and back-end of web applications. Tasks include designing user interfaces, building server-side logic, integrating databases, and ensuring application performance and security.",
-        "Skills": "Programming, Algorithms, Data Structures, Database Management, APIs, Testing and Quality Assurance, Software Tools, Requirement Gathering, Cybersecurity, System Architecture Design"
-    },
-    {
-        "career_id": 9,
-        "Jobtitle": "Tester (Software Tester/QA Engineer)",
-        "Jobdes": "Responsible for testing software to identify bugs and issues, ensuring that the software product functions correctly and meets user requirements. Testers collaborate with the software development team to fix problems and test new features introduced to the system",
-        "Skills": "Testing and Quality Assurance,Software Tools,Programming,Analytical and Problem-Solving Skills,Testing Atuomation and Manual,Requirement Gathering,Debugging and Troubleshooting"
-    },
-    {
-        "career_id": 10,
-        "Jobtitle": "Web Developer",
-        "Jobdes": "Builds and maintains scalable, high-performance web applications. Responsible for front-end and back-end development, including server and database management, API integration, and ensuring cross-platform compatibility.",
-        "Skills": "Full-Stack Development, API Integration, Database Management, User Experience Design, Front-End Frameworks, Programming, Testing and Quality Assurance, System Architecture Design"
-    },
-    {
-        "career_id": 11,
-        "Jobtitle": "UX/UI Designer",
-        "Jobdes": "Designs and optimizes user interfaces and experiences for web and mobile applications. Conducts user research, creates prototypes, and tests designs to ensure that products are intuitive, accessible, and meet user needs.",
-        "Skills": "User Research, Prototyping, Wireframing, Interaction Design, Visual Design, User Experience Management, Testing, Creativity, Communication Skills"
-    },
-    {
-        "career_id": 12,
-        "Jobtitle": "Graphic Designer",
-        "Jobdes": "Designs graphics for websites, applications, advertisements, and printed media. Creates visually appealing images and content that align with the brand's design guidelines. Collaborates with developers and clients to ensure that the designs meet their requirements.",
-        "Skills": "Visual Design,User Experience Design,User Interface Design,Branding and Marketing Skills,Typography,Creativity"
-    },
-    {
-        "career_id": 13,
-        "Jobtitle": "Software Developer",
-        "Jobdes": "Develops and maintains software applications based on business and technical requirements. Responsibilities include coding, testing, debugging, and documenting software, as well as collaborating with other developers and stakeholders to deliver high-quality products.",
-        "Skills": "Software Engineering, Programming, Software Architecture, Data Structures, Database Management, Testing, Security, Version Control, Continuous Integration/Continuous Deployment (CI/CD)"
-    },
-    {
-        "career_id": 14,
-        "Jobtitle": "Software Engineer",
-        "Jobdes": "Designs, develops, and tests complex software applications that meet business and technical requirements. Works closely with application programmers, system analysts, and other engineers to ensure software functionality and performance.",
-        "Skills": "Applications Development, System Integration, Database Administration, User Experience Design, Software Design and Testing, Requirement Gathering, Object-Oriented Programming, Cloud Computing, Cybersecurity"
-    },
-    {
-        "career_id": 15,
-        "Jobtitle": "IT Support",
-        "Jobdes": "Provides technical assistance and support for an organization's IT systems, including hardware, software, and networks. Troubleshoots and resolves technical issues, installs and configures systems, and assists users with IT-related queries.",
-        "Skills": "Technical Support, Network Configuration, Cybersecurity, IT Infrastructure, Problem-Solving, Communication Skills, Hardware/Software Troubleshooting, Customer Service"
-    },
-    {
-        "career_id": 16,
-        "Jobtitle": "IT Project Manager",
-        "Jobdes": " Leads and manages IT projects from initiation to completion, ensuring that all project objectives, timelines, and budgets are met. Coordinates with cross-functional teams, manages risks, and ensures the successful delivery of IT projects aligned with business goals. Communicates project progress and performance to stakeholders and resolves any project-related issues.",
-        "Skills": "Project Management, Risk Management, IT Infrastructure, Business Requirements Understanding, Communication and Collaboration Skills, Budget Management, Time Management, Problem-Solving, Requirement Gathering, Agile Methodology, Cybersecurity, Cloud Computing"
-    },
-    {
-        "career_id": 17,
-        "Jobtitle": "Help Desk Technician",
-        "Jobdes": "Provides first-line technical support to users by troubleshooting and resolving hardware, software, and network issues. Assists users in setting up new devices, configuring systems, and providing guidance on best practices for IT systems. Escalates complex problems to higher-level technical support and documents issue resolutions.",
-        "Skills": "Technical Support, Hardware/Software Troubleshooting, Communication Skills, Network Configuration, IT Infrastructure, Problem-Solving, Customer Service, Cybersecurity, System Configuration, Ticketing Systems, Technical Documentation"
-    },
-    {
-        "career_id": 18,
-        "Jobtitle": "DevOps Engineer",
-        "Jobdes": "Responsible for automating and streamlining the software development process, bridging the gap between development and operations teams. They manage infrastructure, deployment pipelines, and system reliability, ensuring continuous integration and continuous delivery (CI/CD). DevOps Engineers also work on scaling and optimizing application performance, and they play a critical role in monitoring and troubleshooting production systems.",
-        "Skills": "CI/CD Pipelines, Cloud Computing, Automation Tools, Infrastructure as Code (IaC), Containerization (Docker, Kubernetes), Version Control (Git), Scripting (Python, Bash), Networking, Monitoring and Alerting Tools, System Architecture Design, Security Operations, Collaboration Skills"
-    },
-    {
-        "career_id": 18,
-        "Jobtitle": "Computer Science Teacher",
-        "Jobdes": "Responsible for teaching computer science concepts to students at various levels, from basic to advanced. A computer science teacher creates lesson plans that incorporate both theory and practical applications, using modern technology for teaching, such as programming, database design, and application development. They also assess students' progress and provide solutions to learning challenges.",
-        "Skills": "Programming,Educational Tools and Platforms,Testing and Quality Assurance,Communication and Collaboration Skills,Computer Basic."
-    },
-    {
-        "career_id": 20,
-        "Jobtitle": "IT Administrative Officer",
-        "Jobdes": "Responsible for overseeing the day-to-day administrative tasks related to IT operations, including managing IT equipment, supporting documentation, coordinating between departments, and assisting in scheduling maintenance or support. This role often involves handling basic technical support requests, organizing IT-related documents, and managing hardware and software inventories. They also help with user accounts management and maintain records of licenses and IT services.",
-        "Skills": "Documentation and Reporting,Hardware/Software Inventory Management,IT Asset Management,Scheduling and Time Management,Basic,Network Troubleshooting,Microsoft Office Suite (Excel, Word, etc.),User Account Management"
-    }
-]
+{
+    "career_1": "System Engineer",
+    "career_2": "System Analyst",
+    "career_3": "Machine Learning Engineer",
+    "career_4": "Network Engineer",
+    "career_5": "Cybersecurity",
+    "career_6": "Data Analyst",
+    "career_7": "Database Engineer",
+    "career_8": "Full Stack Developer",
+    "career_9": "Tester (Software Tester/QA Engineer)",
+    "career_10": "Web Developer",
+    "career_11": "UX/UI Designer",
+    "career_12": "Graphic Designer",
+    "career_13": "Software Developer",
+    "career_14": "Software Engineer",
+    "career_15": "IT Support",
+    "career_16": "IT Project Manager",
+    "career_17": "Help Desk Technician",
+    "career_18": "DevOps Engineer",
+    "career_19": "Computer Science Teacher",
+    "career_20": "IT Administrative Officer"
+}

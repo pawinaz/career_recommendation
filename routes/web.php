@@ -15,5 +15,6 @@ use App\Http\Controllers\CareerController;
 |
 */
 
-Route::get('/', [CareerController::class, 'index']);
-Route::post('/recommend-career', [CareerController::class, 'recommend']);
+Route::get('/', [CareerController::class, 'home'])->name('home');
+Route::get('/index', [CareerController::class, 'index'])->name('index');
+Route::post('/result', [CareerController::class, 'recommend'])->name('result');

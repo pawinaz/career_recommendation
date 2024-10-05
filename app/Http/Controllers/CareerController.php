@@ -7,12 +7,27 @@ use Illuminate\Support\Facades\Log;
 
 class CareerController extends Controller
 {
+
+    public function home()
+    {
+        return view('home');
+    }
+
+
     public function index()
     {
         // รายวิชาที่ใช้ในฟอร์ม
-        $courses = ['Programming', 'Data Structures', 'Database Management', 'Web Development'];
+        $coursesFilePath = storage_path('course.json');
+        $courses = json_decode(file_get_contents($coursesFilePath), true);
+        
         return view('career_form', compact('courses'));
     }
+    //public function index()
+    //{
+        // รายวิชาที่ใช้ในฟอร์ม
+        //$courses = ['Programming', 'Data Structures', 'Database Management', 'Web Development'];
+        //return view('career_form', compact('courses'));
+    //}
 
     public function recommend(Request $request)
     {
@@ -29,9 +44,9 @@ class CareerController extends Controller
     private function getCareerRecommendations($grades)
     {
         // เส้นทางไปยังไฟล์โมเดลและ Python script
-        $pythonPath = 'C:/Users/ASUS/AppData/Local/Programs/Python/Python311/python.exe'; // เปลี่ยนเป็น '/'
+        $pythonPath = 'C:/Users/ASUS/AppData/Local/Programs/Python/Python311/python.exe'; // เปลี่ยนเป็น '/';
         $scriptPath = base_path('app.py'); // ใช้ base_path() สำหรับตำแหน่งไฟล์ Python script
-        $modelPath = storage_path('models/career_recommendation (3).model'); // ใช้ storage_path() สำหรับตำแหน่งไฟล์โมเดล
+        $modelPath = storage_path('models/career_recommendation (4).model'); // ใช้ storage_path() สำหรับตำแหน่งไฟล์โมเดล
     
         // แปลงข้อมูลเกรดเป็น JSON
         $gradesJson = json_encode($grades, JSON_UNESCAPED_SLASHES);
@@ -69,4 +84,4 @@ class CareerController extends Controller
     
         return $result;
     }
-}    
+}
